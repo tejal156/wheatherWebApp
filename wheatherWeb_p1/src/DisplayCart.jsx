@@ -51,7 +51,7 @@ export default function DisplayCart({ ObjInfo })
                             min tempreture : { ObjInfo.tempMin}
                         </Typography> 
                         <Typography className='cardEle2' variant="body2" color="text.secondary" style={{lineHeight:1.7}}>
-                            wheather is { ObjInfo.weather1} and feels like { ObjInfo.feels_like1}
+                            wheather can be described as { ObjInfo.weather1} and feels like { ObjInfo.feels_like1}
                         </Typography>                       
                     </CardContent>
                 </CardActionArea>
